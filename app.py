@@ -1,13 +1,14 @@
-""" def discount(child,resident,member):
-    resident=input("Are you a citizen?")
-    if resident == ("Yes"):
-    print ("True")
-    else :
-    print ("False")
+""" # Discount kinda works
+
+resident=input("Are you a citizen?")
+if resident == ("Yes"):
+    print (True)
+else :
+    print (False)
     
-child=input("How Old Are You?")
+child=int(input("How Old Are You?"))
    
-if child == range(1-12) or range (65-100):
+if child == (1-12):
      print(True)
 else :
      print (False)
@@ -18,11 +19,32 @@ if member == ("Yes"):
     
     print(True) 
 else : 
-    print (False) """
-  
+    print (False)
+if member or child or resident ==True:
+    print("give discount")
+else : 
+    print("Pay full price") """
 
 
-def Odd_or_Even():
-    x=2
-    Odd=[1+x]
-    Even=x%2]
+#Odd and Even Game Works!
+""" Guess=int(input("Pick a Number:"))
+if Guess % 2 == 0:
+        print ("Even")
+else :
+        print("Odd") """
+      
+# Tip Works!
+""" Bill=(input("How was the Service?"))
+if Bill == ('Bad'):
+    print ("0% tip")
+elif Bill == ("Okay"):
+    print ("15% tip")
+elif Bill == ("Good"):
+    print == ("20% tip")
+elif Bill == ("Great"):
+    print ("25% tip")
+ """
+
+#Factoring
+Accept=int(input("Put a Number"))
+
