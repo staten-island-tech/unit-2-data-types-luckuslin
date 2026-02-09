@@ -44,7 +44,22 @@ elif Bill == ("Good"):
 elif Bill == ("Great"):
     print ("25% tip")
  """
-
-#Factoring
+""" 
+#Factoring works!
 Accept=int(input("Put a Number"))
+for i in range(1,Accept+1):
+    if Accept%i == 0:
+        print (i)
+ """
+#GCF
+a=24    
+""" int(input("First Number:")) """
+b=72    
+""" int(input("Second Number:")) """
+c=b%a
+
+while c == b%a:
+    
+
+
 
