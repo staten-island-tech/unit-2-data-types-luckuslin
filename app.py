@@ -51,15 +51,15 @@ for i in range(1,Accept+1):
     if Accept%i == 0:
         print (i)
  """
-#GCF
-a=24    
-""" int(input("First Number:")) """
-b=72    
-""" int(input("Second Number:")) """
-c=b%a
+""" #GCF works!
+a=int(input("First Number:")) 
+b=int(input("Second Number:"))
 
-while c == b%a:
-    
+
+while b != 0:
+    a,b=b, a%b
+
+print(a) """
 
 
 
